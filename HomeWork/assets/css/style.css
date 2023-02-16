@@ -1,0 +1,126 @@
+/* ====================================================
+                    ALL Common css Start
+=====================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ====================================================
+                    ALL Common CSS End
+=====================================================*/
+
+
+
+
+/* ===================================================
+                    Menu Part start
+=====================================================*/
+#navbar {
+    /* background-color: #39cd14; */
+    background-color: #eee;
+}
+
+.logo {
+    width: 80px;
+    height: 20px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    /* background-color: pink; */
+}
+
+.main_menu{
+    width: 840px;
+    height: 80px;
+    float: left;
+    /* background-color: aqua; */
+}
+.main_menu ul {
+    text-align: right;
+}
+
+.main_menu ul li {
+    /* float: left; */
+    /* background-color: red; */
+    display: inline-block;
+    margin: 0 28px;             /*margin: top-bottom left-right */
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    border-radius: 5px;
+    /* padding: 3px; */       /*padding dile problem hoy*/
+    /* border: 2px solid black; */
+    transition: all linear .3s;  
+}
+
+.main_menu ul li:hover {
+    background-color: pink;
+    transition: all linear .3s;
+}
+
+
+.main_menu ul li a {
+    color: #353535;
+    font-size: 12px;
+    padding: 5px;
+    transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    color: #0872b9;
+    transition: all linear .3s; 
+}
+
+.button {
+    width: 200px;
+    height: 80px;
+    float: left;
+    text-align: right;
+    padding-top: 18px;
+    /* background-color: blue; */
+    padding-right: 35px;
+}
+
+.button a{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #1f5cce;
+    transition: all linear .3s;
+}
+
+.button a:hover{
+    background-color: #473f3f;
+    color: #ff0000;
+    transition: all linear .3s;
+}
+
+/* ====================================================
+                    Menu Part End
+=====================================================*/
