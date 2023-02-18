@@ -53,7 +53,10 @@ img {
     padding-left: 100px;
     /* background-color: pink; */
 }
-
+.logo a img{
+    width: 150px;
+    height: 75px;
+}
 .main_menu{
     width: 840px;
     height: 80px;
@@ -68,12 +71,9 @@ img {
     /* float: left; */
     /* background-color: red; */
     display: inline-block;
-    margin: 0 28px;             /*margin: top-bottom left-right */
-    /* padding-top: 20px; */
+    margin: 0 28px;
     margin-top: 20px;
     border-radius: 5px;
-    /* padding: 3px; */       /*padding dile problem hoy*/
-    /* border: 2px solid black; */
     transition: all linear .3s;  
 }
 
